@@ -2,9 +2,12 @@
   "name": "blog-task",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bin/www",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/www"
   },
   "repository": {
     "type": "git",
