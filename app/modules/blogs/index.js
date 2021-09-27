@@ -1,12 +1,13 @@
-const babyActivityController = require("./baby_activity.conroller");
-const controller = new babyActivityController();
+const blogsController = require("./blogs.conroller");
+const controller = new blogsController();
 const express = require('express');
 
 const router = express.Router();
-router.post('/', controller.addActivity);
-router.get('/:baby_id', controller.getActivity);
-router.put('/:baby_activity_id', controller.updateActivity);
-router.delete('/:baby_activity_id', controller.deleteActivity);
+router.post('/', controller.addBlog);
+router.get('/', controller.getBlogs);
+router.put('/:blog_id', controller.updateBlog);
+router.put('/approve/:blog_id', controller.approveBlog);
+router.delete('/:blog_id', controller.deleteBlog);
 
 
 
