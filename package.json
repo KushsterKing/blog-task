@@ -2,7 +2,7 @@
   "name": "blog-task",
   "version": "1.0.0",
   "description": "",
-  "main": "bin/www",
+  "main": "bin/www.js",
   "engines": {
     "node": "14.x"
   },
