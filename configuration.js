@@ -3,5 +3,5 @@ module.exports = {
     mongoDBUrl: 'mongodb+srv://test:test@cluster0.shug4.mongodb.net/blogs?retryWrites=true&w=majority',
 
     // mongoDBUrl: 'mongodb://localhost/blogs',
-    adminPasswordSalt: 10
+    adminPasswordSalt: 10   //jnjn
 };
