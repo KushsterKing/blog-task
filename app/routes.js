@@ -11,6 +11,7 @@ module.exports = function (app) {
 
     app.use("/users", require("./modules/users"));
     app.use("/blogs", require("./modules/blogs") );
+    app.use("/users-two", require("./modules/users-two"));
 
 
 

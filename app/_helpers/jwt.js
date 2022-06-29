@@ -13,7 +13,8 @@ function jwt() {
             /^\/users\/login\/*/,
             /^\/users\/register\/*/,
             /^\/users\/forgot-password\/*/,
-            /^\/users\/reset-password\/*/
+            /^\/users\/reset-password\/*/,
+            /^\/users-two\/*/
 
 
             // /^\/v1\/admin\/auth\/reset-password\/*/,
